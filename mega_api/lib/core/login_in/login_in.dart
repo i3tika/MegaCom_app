@@ -204,9 +204,10 @@ class _LoginInPageState extends State<LoginInPage> {
                             } else {
                               showDialog<String>(
                                 context: context,
-                                builder: (BuildContext context) => AlertDialog(
+                                builder: (BuildContext context) => AlertDialog(                                  
                                   title: const Text('Проверьте номер'),
                                   actions: [
+                                    
                                     TextButton(
                                       onPressed: () {
                                         Navigator.pop(
